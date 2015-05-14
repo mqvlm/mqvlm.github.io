@@ -13,8 +13,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            <!--<hr class="star-primary">-->
-                            <canvas id="{{ post.canvas-id }}"></canvas>
+                            <script src="/processingjs/processing.js"></script>
+                            <canvas data-processing-sources="/sketches/dramatic_chipmunk/dramatic_chipmunk.pde"></canvas>
+                            <!--<canvas id="{{ post.canvas-id }}"></canvas>-->
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             
                             <p>{{ post.description }}</p>
