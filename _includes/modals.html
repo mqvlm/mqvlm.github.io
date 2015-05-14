@@ -13,8 +13,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
+                            <!--<hr class="star-primary">-->
+                            <canvas id="{{ post.canvas-id }}"></canvas>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -37,4 +39,14 @@
             </div>
         </div>
     </div>
+
+    <script>
+
+    $(document).ready(function() {
+        $(".modal.permalink").each(function(){
+            if(window.location.href.indexOf($(this).attr("id")) != -1){
+            $(this).modal('show');
+            }
+        });
+    });
 {% endfor %}
