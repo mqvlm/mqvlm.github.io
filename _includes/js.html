@@ -1,21 +1,53 @@
- <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/libs/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/libs/slidebars.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/libs/jquery.backstretch.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/libs/jquery.scrollstop.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/libs/rrssb.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/functions.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+    $(function($) {
+        $.slidebars();
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" }}"></script>
+        var steps = [];
+        var images = [
+            {% for image in page.backgrounds %}'{{ image }}',{% endfor %}
+        ];
 
-    <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" }}"></script>
-    <script src="{{ "/js/classie.js" }}"></script>
-    <script src="{{ "/js/cbpAnimatedHeader.js" }}"></script>
+        if (images.length > 0) {
+            $('.loader').addClass('loading');
 
-    <!-- Contact Form JavaScript -->
-    <script src="{{ "/js/jqBootstrapValidation.js" }}"></script>
-    {% if site.contact == "static" %}
-    <script src="{{ "/js/contact_me_static.js" }}"></script>
-    {% else %}
-     <script src="{{ "/js/contact_me.js" }}"></script>
-    {% endif %}
+            steps = scrollSteps(images.length);
 
-    <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/freelancer.js" }}"></script>
+            $.backstretch(images, {
+                fade: 1000
+            });
+
+            $.backstretch('pause');
+        }
+
+        $(document).on("backstretch.before", function (e, instance, index) {
+            $('.loader').addClass('loading');
+        });
+
+        $(document).on('scrollstop', function () {
+            if (steps.length > 0) {
+                var percentage = scrollPercentage();
+
+                for (var i = 0; i < steps.length; i++) {
+                    if (percentage < steps[i]) {
+                        if (i == $("body").data("backstretch").index) {
+                            break;
+                        }
+
+                        $.backstretch('show', i);
+                        break;
+                    }
+                }
+            }
+        });
+
+        $(document).on("backstretch.after", function (e, instance, index) {
+            $('.loader').removeClass('loading');
+        });
+    });
+</script>

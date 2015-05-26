@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
 
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% else %}
-    {% include contact.html %}
-    {% endif %}
+{% include head.html %}
 
-    {% include footer.html %}
-    {% include modals.html %}
+<body>
+
+    {% include loader.html %}
+
+    <main id="sb-site">
+
+        <div class="container">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+
+            {% include pagination.html %}
+
+            {% include next.html %}
+
+        </div>
+
+    </main>
+
+    {% include sidebar.html %}
+
     {% include js.html %}
-    </body>
+
+</body>
+
 </html>
