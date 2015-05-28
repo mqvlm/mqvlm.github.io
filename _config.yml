@@ -1,8 +1,8 @@
 permalink: /:categories/:title.html
 url: "http://mqvlm.github.io/"
 full_name: "Mariana Quintero"
-first_name: "Mariana"
-last_name: "Quintero"
+first_name: ""
+last_name: ""
 blog_title: "experimentos en processing y otras cosas."
 author_img_name_path: "/images/users/user.jpg"
 disqus_shortname: "mqvlm"
