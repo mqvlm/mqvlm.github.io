@@ -1,6 +1,6 @@
 #Jekyll Masonry Theme
 
-PLantilla para Jekyll basadada en la Jekyll Masonry Theme de Pasindu De Silva:
+Plantilla para Jekyll basada en la Jekyll Masonry Theme de Pasindu De Silva:
 
 Demo - [http://pasindud.github.io/](http://pasindud.github.io/)
 
