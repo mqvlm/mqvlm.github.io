@@ -1,9 +1,7 @@
 #Jekyll Masonry Theme
 
-This using masonry griding to give a nice design
+PLantilla para Jekyll basadada en la Jekyll Masonry Theme de Pasindu De Silva:
 
 Demo - [http://pasindud.github.io/](http://pasindud.github.io/)
 
-Dev by Pasindu De Silva
-
-Was orignial authored by [Arunoda](https://github.com/arunoda)
+Autoría original de [Arunoda](https://github.com/arunoda)
