@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: Here is the title of the post
+title: hola otra vez, o algo así
 category: blog
 tags: [tags for the post, is here]  
-summary: Here is a summary of the post
-image: /images/blog/blogging-again.png
+summary: Qué difícil que es [volver a] empezar, pero bueno, ahí va.
+image: /images/blog/post1.png
 ---
 
 This is a template with masonry to get the theme
