@@ -456,7 +456,7 @@ ul.icons li [class*=" icon-"] {
   background-image: -o-linear-gradient(top, black, black);
   background-image: linear-gradient(to bottom, #000000, #000000);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF000000', GradientType=0);
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF000000', GradientType=0);
   border-color: black black black;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: black;

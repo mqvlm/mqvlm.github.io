@@ -21,20 +21,22 @@
 			
 			<div id='side-bar'>
 				<div id='user'>
-					<img id="user-pic" src="{{site.author_img_name_path}}" />
+					<a href="http://mqvlm.github.io/">
+					<img id="user-pic" src="{{site.author_img_name_path}}" />  
+				    </a>
 					<div id='user-name'>{{site.first_name}} {{site.last_name}}</div>
 				</div>
 				<div id='date'>
-					{{ page.date | date: "%B %d, %Y"}}
+					<!--{{ page.date | date: "%B %d, %Y"}}-->
 				</div>
 				<br>
 				<br>
 				<div id='date'>
-					{{site.aboutme}}
+					<!--{{site.aboutme}}-->
 				</div>
 				<div id='tags'>
 					{% for tag in page.tags %}
-						<div> <span class='tag {{tag | downcase }}'>{{tag}}</span> </div>
+						<!--<div> <span class='tag {{tag | downcase }}'>{{tag}}</span> </div> -->
 					{% endfor %}
 				</div>
 			</div>
