@@ -7,10 +7,20 @@ summary: Qué difícil que es [volver a] empezar, pero bueno, ahí va.
 image: /images/blog/post1.png
 ---
 
-This is a template with masonry to get the theme
+Qué difícil que es [volver a] empezar, pero bueno, ahí va.
 
-```
-git clone https://github.com/pasindud/jekyll-masonry-theme
-```
+Hace poco más de un año empecé un sitio donde quise poner algunos experimentos que hacía cuando empecé a aprender Processing en serio. Hoy la trasteo a github, no solo apra evitar los caprichos de CMS como tumblr y wordpress, sino para dejar más accesibles todos los códigos a través de github. 
 
-Edit the _config.yml to change your settings
+Esto fue lo que escribí para inaugurarlo, y bueno, lo vuelo a poner porque creoq ue en medio de todo no ha perdida vigencia:
+
+
+Quisiera decir un montón de cosas, casi que quisiera contar de una vez todo lo que que tengo hace un tiempo en la cabeza y que fue el motivo para abrir este espacio. Sin embargo, hoy solo quiero contar un poco de qué se trata esto y bueno, de llenar esta dificilísima primera página en blanco.
+
+No sé si puedo identificar UN o EL momento exacto en que empecé a meterme en estos temas, pero sí me acuerdo de un día en la biblioteca de la universidad en donde me tocó sentarme en una mesa en la que alguien felizmente había dejado una copia del Arte Digital de Wolf Lieser. La abrí y bueno, una cosa llevó a la otra y en menos de un mes estaba tirando todo mi anteproyecto de grado sobre semiótica y terrorismo a la caneca para intentar escribir una tesis sobre código, transistores e interfaces en el terrible afán que implica un plazo de menos de cinco meses.
+
+Francamente no sabía qué me daba más vergüenza, si meterme a hablar sobre cosas de las cuales un comunicador no tiene la menor idea —y en ese afán— o si salir graduada de una carrera sobre medios de comunicación sin tener la menor idea de qué era un bit o un transistor en un momento en donde básicamente todos los medios de comunicación son bits y transistores. Esa tesis casi que se convirtió entonces en una guerra por ese absurdo académico, una guerra contra la facultad y contra ese hueco tan ridículo que cargan los “profesionales de la comunicación”, lo que sea que eso quiera decir.
+
+Tal vez fue muy poco el tiempo y demasiados los temas que quería abarcar, pero finalmente eso me llevó a seguir interesándome por ellos y bueno, por qué no, a intentar vivir algún día de eso.
+
+Este espacio lo abro entonces para hablar de esas cosas y para poner algunos experimentos. Lo hago como ejercicio personal de disciplina y registro, pero quien sabe, tal vez a alguno de ustedes le interese y podamos compartir código y opiniones.
+
