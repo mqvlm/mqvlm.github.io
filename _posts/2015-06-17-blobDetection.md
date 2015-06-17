@@ -15,7 +15,7 @@ image: /images/blog/post2_1.png
 [*(descargar código)*](https://dl.dropboxusercontent.com/u/21566953/mqvlm/post2_theo.zip)
 
 <br>
-_Esto es algo que hice hace algunos meses cuando estaba aprendiendo a usar la librería blobDetection para Processing. 
+Esto es algo que hice hace algunos meses cuando estaba aprendiendo a usar la librería blobDetection para Processing. 
 
 La idea era jugar un poco con la aparente inmovilidad e imperturbabilidad de las imágenes cuando cuelgan en la pared de un museo o galería, aprovechando de paso la geometría de Theo van Doesburg para estirar sus vértices y así lograr nuevas perspectivas y algo así como una co-creación o reinterpretación de la obra con el visitante que pasa al frente. 
 
