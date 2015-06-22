@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
 
 img, embed, object{
@@ -79,7 +79,7 @@ h1 {
 }
 
 #heading {
-	margin: 20px 0px 15px 0px;
+	margin: 0px 0px 10px 0px;
 	position: relative;
 	padding: 0px 0px 15px 0px;
 	/*border-bottom: 1px solid #eee;*/
@@ -117,7 +117,11 @@ h1 {
 }
 
 #content {
-    margin: 0px 18% 0px ;
+    margin: 0px 0px 0px 30px ;
+    height: 500px;
+    width: 2000px;
+    overflow: auto;
+
 }
 
 #footer {
@@ -130,7 +134,7 @@ h1 {
 }
 
 #posts ul {
-	list-style:none; 
+	list-style: none; 
 	margin: auto;
 	padding: 0px;
 }
