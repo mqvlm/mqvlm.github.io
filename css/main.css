@@ -117,9 +117,8 @@ h1 {
 }
 
 #content {
-    margin: 0px 0px 0px 30px ;
-    height: 500px;
-    width: 2000px;
+    margin: 0px 18% 0px ;
+
     overflow: auto;
 
 }
@@ -160,6 +159,7 @@ h1 {
 	margin: 0px 0px 8px 0px;
 	line-height: 20px;
 	font-size: 14px;
+	font-weight: 400;
 	padding: 10px 0px 0px 0px;
 }
 
@@ -177,10 +177,10 @@ h1 {
 
 .post-content {
 	margin-top: 10px;
-	font-size: 13px;
-
-	padding: 20px 30px;
-	background: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/entry-meta-shadow.png') no-repeat scroll center top #FBFBFB;
+	font-size: 12px;
+    font-style: italic;
+	padding: 0px;
+	/*background: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/entry-meta-shadow.png') no-repeat scroll center top #FBFBFB; */
 	border-radius: 0px 0px 3px 3px;
 }
 
