@@ -108,6 +108,12 @@ h1 {
 	color: #eee;
 }
 
+#linksPrevNext {
+	float: left;
+	margin: 20px 0 0 0;
+	
+}
+
 #links img {
 
 	box-shadow: 0 0px 0px #cccccc;
