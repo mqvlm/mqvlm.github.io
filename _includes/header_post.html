@@ -12,11 +12,16 @@
 			</div>
 
 			<div id='linksPrevNext'>
-				<a href='{{page.previous}}' target="_blank" >
+				{% if page.previous.url %} 
+				<a href='{{page.previous.url}}' target="_blank" >
 					<img src="/svg/anterior.svg" alt="anterior"> 
 				</a> 
-				<a href= '{{page.next}}'  target="_blank">
+				{% endif %} 
+
+				{% if page.next.url %} 
+				<a href= '{{page.next.url}}'  target="_blank">
 				    <img src="/svg/siguiente.svg" alt="siguiente">
 				</a> 
+				{% endif %} 
 				
-			</div>
+			</div> 
