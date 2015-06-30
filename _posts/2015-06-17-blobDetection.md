@@ -3,7 +3,7 @@ layout: blog
 title: intervenir la obra / experimento con blobDetection y Theo van Doesburg
 category: blog
 tags: [tags for the post, is here]  
-summary: Esto es algo que hice hace algunos meses cuando estaba aprendiendo a usar la librería blobDetection para Processing.
+summary: Esto es algo que hice cuando estaba aprendiendo a usar la librería blobDetection para Processing.
 image: /images/blog/post2_1.png
 ---
 
