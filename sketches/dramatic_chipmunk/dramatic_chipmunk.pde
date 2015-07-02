@@ -41,11 +41,12 @@ void setup(){
 
   //se cargan las imágenes
   //acá las estoy llamando directamente de la carpeta local de ´data´, pero para web se pone el url de donde estàn alojadas
-  bicho = loadShape("dramatic1.svg");
-  ojoizq = loadShape("ojoizq.svg");
-  ojoder = loadShape("ojoder.svg");  
-  brillo = loadShape("brillo.svg");    
+  bicho = loadShape("https://dl.dropboxusercontent.com/u/21566953/dramatic1.svg");
+  ojoizq = loadShape("https://dl.dropboxusercontent.com/u/21566953/ojoizq.svg");
+  ojoder = loadShape("https://dl.dropboxusercontent.com/u/21566953/ojoder.svg");  
+  brillo = loadShape("https://dl.dropboxusercontent.com/u/21566953/brillo.svg");    
  
+
 } 
 
  void draw(){
@@ -58,10 +59,11 @@ void setup(){
   x2= map(mouseX, 0, width, -3,1);
   y2= map(mouseY, 0, width,-2,3);
 
+
   //dibujamos los SVGs, pero dandole las variables mapeadas arriba para que se muevan 
-  shape(bicho);
-  shape(ojoizq,x,y);
-  shape(ojoder,x2,y2);
-  shape(brillo);
+  shape(bicho,200,0);
+  shape(ojoizq,x+200,y);
+  shape(ojoder,x2+200,y2);
+  shape(brillo,200,0);
   
 }
