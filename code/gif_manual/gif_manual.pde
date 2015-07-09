@@ -1,0 +1,79 @@
+/* 
+
+  __
+ (  ->
+ / )\
+<_/_/
+ " "    mqvlm.github.io
+
+*/
+
+
+//GIFS MANUALES CON PROCESSING
+//Código para hacer una especie de gifs que se muevan con el movimiento del mouse
+
+//http://mqvlm.tumblr.com/post/84293403656/gifs-manuales-con-processing-js
+
+//Usé photoshop para separar un clip de video en imágenes individuales. 
+//Importante nombrarlas como 0.png, 1.png y así. SIEMPRE EMPEZAR EN 0
+
+
+PImage[] imagenes;  //declarar arreglo para guardar las imágenes
+PImage prueba;
+
+float cuadro;
+float minCuadro, maxCuadro;
+int nuevoCuadro;
+
+
+void setup ()
+{
+  size(500,256);
+  background(255);
+  
+  cuadro = 0.0;
+  minCuadro= 0.0;
+  maxCuadro = 15.0;
+  nuevoCuadro = 0;
+  
+  prueba = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post_12/gif_manual/data/0.png");
+
+  imagenes = new PImage[15];
+  for (int i = 0; i < imagenes.length; i++)
+  {
+    imagenes[i] = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post_12/gif_manual/data/"+ i + ".png"); 
+  }
+  
+} 
+
+
+void draw ()
+{
+  
+  //image(prueba,0,0);
+  
+  nuevoCuadro = int(cuadro);
+  image(imagenes[nuevoCuadro],0,0);
+  
+  //// opción para manejar el gif con forward y rewind con el movimiento horizontal del mouse
+  /*
+  cuadro = map(mouseX, 0, width, minCuadro, maxCuadro);
+  nuevoCuadro = int(cuadro);
+  image(imagenes[nuevoCuadro],0,0);
+  */
+  
+  // opción para que el gif se mueva elípticamente con el movimiento del mouse sin forward ni rewind 
+  
+  if ((mouseX-pmouseX)>=1) {
+    //si el mouse va de izquierda a derecha
+    cuadro = map(mouseX, 0, width, minCuadro, maxCuadro);
+   
+  } else if  ((mouseX-pmouseX)<=-1) {
+    //si el mouse va de derecha a izquierda 
+    cuadro = map(mouseX, 0, width, maxCuadro, minCuadro);
+   
+   } 
+ 
+ 
+
+}
