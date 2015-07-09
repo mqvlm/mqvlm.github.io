@@ -15,8 +15,6 @@ image: /images/blog/post13/desencuentros.jpg
 _[Ver más grande en Vimeo](https://vimeo.com/100271977)_
 
 <br>
-<br>
-<br>
 
 Esto es algo que hicimos con un grupo de amigos hace ya algunos meses como proyecto final de nuestro curso de creación multimedia. 
 
