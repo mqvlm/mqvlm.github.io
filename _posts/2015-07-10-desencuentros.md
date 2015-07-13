@@ -10,7 +10,7 @@ image: /images/blog/post13/desencuentros.jpg
 
 ![Alt text](/images/blog/post13/desencuentros.jpg "des[encuentros]")
 
-<p><iframe frameborder="0" height="281" src="//player.vimeo.com/video/100271977" width="500"></iframe></p>
+<p><iframe frameborder="0" height="394" src="//player.vimeo.com/video/100271977" width="700"></iframe></p>
 
 _[Ver más grande en Vimeo](https://vimeo.com/100271977)_
 
