@@ -61,9 +61,9 @@ void setup(){
 
 
   //dibujamos los SVGs, pero dandole las variables mapeadas arriba para que se muevan 
-  shape(bicho,200,0);
-  shape(ojoizq,x+200,y);
-  shape(ojoder,x2+200,y2);
-  shape(brillo,200,0);
+  shape(bicho,0-100,0);
+  shape(ojoizq,x-100,y);
+  shape(ojoder,x2-100,y2);
+  shape(brillo,0-100,0);
   
 }
