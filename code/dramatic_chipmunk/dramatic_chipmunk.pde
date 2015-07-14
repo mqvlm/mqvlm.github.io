@@ -41,10 +41,10 @@ void setup(){
 
   //se cargan las imágenes
   //acá las estoy llamando directamente de la carpeta local de ´data´, pero para web se pone el url de donde estàn alojadas
-  bicho = loadShape("https://dl.dropboxusercontent.com/u/21566953/dramatic1.svg");
-  ojoizq = loadShape("https://dl.dropboxusercontent.com/u/21566953/ojoizq.svg");
-  ojoder = loadShape("https://dl.dropboxusercontent.com/u/21566953/ojoder.svg");  
-  brillo = loadShape("https://dl.dropboxusercontent.com/u/21566953/brillo.svg");    
+  bicho = loadShape("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post7_dramatic_chipmunk/data/dramatic1.svg");
+  ojoizq = loadShape("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post7_dramatic_chipmunk/data/ojoizq.svg");
+  ojoder = loadShape("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post7_dramatic_chipmunk/data/ojoder.svg");  
+  brillo = loadShape("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post7_dramatic_chipmunk/data/brillo.svg");    
  
 
 } 
