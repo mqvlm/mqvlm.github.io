@@ -46,32 +46,44 @@ Por eso, también les dejo para descargar [*la parte 2 de este tutorial*](https:
 
 En ese código de los círculos que les pongo está la base para programar cualquier tipo de interactividad con el cuerpo. La clave está en la parte en la que se toman las coordenadas de una de las articulaciones. Está súper señalada en el código de pintar círculos con las manos, y si no, la vuelvo a poner acá:
 
+<code>
 //mano derecha
   PVector manDer = new PVector();
   context.getJointPositionSkeleton(userId,SimpleOpenNI.SKEL_RIGHT_HAND,manDer);
+</code>
 
+
+<code>
   PVector manDerProj = new PVector();
   context.convertRealWorldToProjective(manDer,manDerProj);
+</code>  
   
+<code> 
   fill(relleno);
   ellipse(manDerProj.x, manDerProj.y, d, d);
-  
+</code>   
+
+<code> 
   //mano izquierda
   PVector manIzq = new PVector();
   context.getJointPositionSkeleton(userId,SimpleOpenNI.SKEL_LEFT_HAND,manIzq);
+</code>   
 
+<code> 
   PVector manIzqProj = new PVector();
   context.convertRealWorldToProjective(manIzq,manIzqProj);
-  
+</code> 
+
+<code> 
   fill(relleno);
   ellipse(manIzqProj.x, manIzqProj.y, d, d);
-
+</code> 
 
  En este caso, se están tomando las coordenadas de las mano derecha primero, y luego de la mano izquierda. Para entender qué está haciendo el código ahí miren el ejemplo que ahí comento paso por paso todo. 
 
 
 
-No escribo nada más aquí porque todo está comentado en los dos ejemplos que dejé para desacrgar. Espero que les sirva!
+No escribo nada más aquí porque todo está comentado en los dos ejemplos que dejé para descargar. Espero que les sirva!
 
 p.s. A veces surgen muchos problemas a la hora de reconocer el kinect con el computador, depende mucho de qué OS estén usando, de qué Windows, aquí no puedo poner todos los conflictos que me he en encontrado por el camino. En ese caso lo mejor es copy/paste del error y buscar en google a ver qué se puede hacer, como siempre se hace con estas cosas. 
 
