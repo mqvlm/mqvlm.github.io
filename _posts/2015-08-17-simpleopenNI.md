@@ -26,7 +26,7 @@ _[Ver más grande en Vimeo](https://vimeo.com/135920131)_
 ![Alt text](/images/blog/post17/5.png)  
 
 
-No es tan difícil empezar a trabajar con kinect. En esta entrada, comparto el código básico para empezar.
+No es tan difícil empezar a trabajar con kinect. En esta entrada, comparto el código básico para empezar (esto es, si uno está familiarizado con [*Processing*](https://processing.org/)).
 
 Por mi parte he trabajado la librería [*simple-openNI*](https://code.google.com/p/simple-openni/) para conectar el kinect con Processing, aunque sé que hay otras que han venido saliendo y que tal vez incluso funcionen mejor, pero en este caso voy a explicar como hacerlo con la que conozco. 
 
