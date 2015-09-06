@@ -36,12 +36,12 @@ void setup ()
   maxCuadro = 15.0;
   nuevoCuadro = 0;
   
-  prueba = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post_12/gif_manual/data/0.png");
+  prueba = loadImage("0.png");
 
   imagenes = new PImage[15];
   for (int i = 0; i < imagenes.length; i++)
   {
-    imagenes[i] = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post_12/gif_manual/data/"+ i + ".png"); 
+    imagenes[i] = loadImage(i + ".png"); 
   }
   
 } 
