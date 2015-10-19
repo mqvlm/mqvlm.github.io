@@ -73,6 +73,12 @@ void draw ()
     cuadro = map(mouseX, 0, width, maxCuadro, minCuadro);
    
    } 
+   
+   if (mouseX == 0) {
+     
+     cuadro= 0;
+   
+   }
  
  
 
