@@ -41,7 +41,7 @@ void setup ()
   imagenes = new PImage[15];
   for (int i = 0; i < imagenes.length; i++)
   {
-    imagenes[i] = loadImage(i + ".png"); 
+    imagenes[i] = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post12_mar/gif_manual/data/"+i + ".png"); 
   }
   
 } 
