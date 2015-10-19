@@ -12,7 +12,7 @@
 //GIFS MANUALES CON PROCESSING
 //Código para hacer una especie de gifs que se muevan con el movimiento del mouse
 
-//http://mqvlm.tumblr.com/post/84293403656/gifs-manuales-con-processing-js
+//http://mqvlm.github.io/blog/mar.html
 
 //Usé photoshop para separar un clip de video en imágenes individuales. 
 //Importante nombrarlas como 0.png, 1.png y así. SIEMPRE EMPEZAR EN 0
