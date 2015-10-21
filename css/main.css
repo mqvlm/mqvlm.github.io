@@ -87,7 +87,9 @@ h1 {
 
 #logo {
 	float: left;
-	font-size: 40px;
+	font-size: 11px;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 
 #links a {
@@ -95,10 +97,12 @@ h1 {
 }
 
 #logo a {
-    font-size: 40px;
+    font-size: 11px;
     color: #333333;
     text-decoration: none;
-    font-family: "Doppio One";
+    font-family: arial;
+    font-weight: bold;
+
 }
 
 
@@ -256,6 +260,11 @@ padding: 10px;
 
 #texto {
 width: 80%;
+float: left;
+}
+
+#about {
+width: 70%;
 float: left;
 }
 
