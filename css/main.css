@@ -259,6 +259,21 @@ width: 80%;
 float: left;
 }
 
+#compartir {
+width: 80%;
+float: left;
+margin-bottom: 50px;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
 .tag {
 	font-size: 12px;
     padding: 2px 6px 2px 6px;
