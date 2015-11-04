@@ -71,6 +71,11 @@ h1 {
 	font-weight: normal;
 }
 
+canvas {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
+}
+
 
 #layout {
 	/width: 90%;
@@ -84,6 +89,8 @@ h1 {
 	padding: 0px 0px 15px 0px;
 	/*border-bottom: 1px solid #eee;*/
 }
+
+
 
 #logo {
 	float: left;
