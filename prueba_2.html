@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="experimentos en processing y otras cosas." />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> - experimentos en processing y otras cosas.</title>
+		<script type="text/javascript" src='/js/highlight.pack.js'></script>
+		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+		<script type="text/javascript" src='/js/processing.js'></script>
+
+
+	</head>
+
+
+	<body>
+
+
+		<div id='layout'>
+			<div id='heading'>
+				<div id='logo'><a href='http://mqvlm.github.io/'></a> <a href='http://mqvlm.github.io/' id='logo_docs'>
+			</a></div>
+			<div id='links'>
+				<a href='https://github.com/mqvlm' target="_blank" >
+					<span class="icon-github" ></span>
+				</a> |
+				<a href= 'http://memmorabilia.tumblr.com/'  target="_blank">
+				<span class="icon-tumblr" ></span>	
+				</a> |
+				<!--<a href='mqvlm' class="icon-linkedin"></a>-->
+				<a href= 'http://www.instagram.com/mqvlm'  target="_blank">
+				<span class="icon-instagram" ></span>	
+				</a> |
+			</div>
+
+			<div id='linksPrevNext'>
+				 
+
+				 
+				
+			</div> 
+
+
+			<div style='clear: both'></div>
+		</div>
+		<div id='content'>
+			
+			
+			<div id='side-bar-post'>
+				<div id='user'>
+					<a href="http://mqvlm.github.io/">
+					<img id="user-pic" src="/svg/home.svg" />  
+				    </a>
+					<!--<div id='user-name'> </div> -->
+				</div>
+				<div id='date'>
+					<!---->
+				</div>
+				<br>
+				<br>
+				<div id='date'>
+				<!--	 -->
+				</div>
+				<div id='tags'>
+					
+				</div>
+			</div> 
+
+			<div id='page'>
+				<h1 id='page-title'>Prueba</h1>
+
+				<div id='texto'>
+				<p>Processing.js test for mobile </p>	
+				
+				
+                <canvas ontouchstart="touchStart(event);"
+				ontouchmove="touchMove(event);"
+				ontouchend="touchEnd(event);"
+				ontouchcancel="touchCancel(event);"
+				id="sketch" width="300" height="300" data-processing-sources="/code/rect.pde" autofocus> </canvas>
+
+				<script type="text/javascript">
+
+				var processingInstance;
+
+
+				function setProcessingMouse(event){
+				    if (!processingInstance) {  
+				        processingInstance = Processing.getInstanceById('sketch');  
+				    }  
+					
+				      var x = event.touches[0].clientX;
+				      var y = event.touches[0].clientY;
+
+
+				    processingInstance.mouseX = x;
+				    processingInstance.mouseY = y;
+				};
+
+				function touchStart(event) {
+				    event.preventDefault();
+					setProcessingMouse(event);
+				    processingInstance.mousePressed();
+				};
+
+				function touchMove(event) {
+				    event.preventDefault();
+					setProcessingMouse(event);
+				    processingInstance.mouseDragged();
+				};
+
+				function touchEnd(event) {
+				    event.preventDefault();
+					setProcessingMouse(event);
+				    processingInstance.mouseReleased();
+				};
+
+				function touchCancel(event) {
+				    event.preventDefault();
+					setProcessingMouse(event);
+				    processingInstance.mouseReleased();
+				};
+
+				</script>
+
+
+
+
+				</div>
+				
+				
+			</div>
+			
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			 - 
+		</div>
+	</div>
+	
+	<!-- START GA CODE -->
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', '']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+
+	<!-- END GA CODE -->
+</body>
+</html>
