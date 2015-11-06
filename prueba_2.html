@@ -91,8 +91,8 @@
 				        processingInstance = Processing.getInstanceById('sketch');  
 				    }  
 					
-				      var x = event.touches[0].offsetX;
-				      var y = event.touches[0].offsetY;
+				      var x = event.touches[0].clientX;
+				      var y = event.touches[0].clientY;
 
 
 				    processingInstance.mouseX = x;
