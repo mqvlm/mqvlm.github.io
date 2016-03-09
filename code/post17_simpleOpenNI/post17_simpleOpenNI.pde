@@ -62,7 +62,7 @@ color[]       userClr = new color[]{ color(255,0,0),
 
 void setup()
 {
-  size(640,480);
+  size(640,480,P2D);
   
   background(0);
   
