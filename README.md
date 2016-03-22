@@ -1,7 +1,7 @@
-#Jekyll Masonry Theme
+Portafolio de experimentos y otras cosas. 
+https://mqvlm.github.io 
+
 
 Plantilla para Jekyll basada en la Jekyll Masonry Theme de Pasindu De Silva:
+[http://pasindud.github.io/](http://pasindud.github.io/)
 
-Demo - [http://pasindud.github.io/](http://pasindud.github.io/)
-
-Autoría original de [Arunoda](https://github.com/arunoda)
