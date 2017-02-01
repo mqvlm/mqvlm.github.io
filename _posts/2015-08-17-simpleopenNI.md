@@ -1,11 +1,14 @@
 ---
-layout: blog
 title: empezando con kinect
-tags: [tags for the post, is here]  
-summary:  tutorial para empezar con simple-openNI para Processing y Kinect
-category: blog
-image: /images/blog/post17/0.png
-
+date: 2015-08-17 00:00:00 Z
+categories:
+- blog
+tags:
+- tags for the post
+- is here
+layout: blog
+summary: tutorial para empezar con simple-openNI para Processing y Kinect
+image: "/images/blog/post17/0.png"
 ---
 
 <p><iframe frameborder="0" height="394" src="//player.vimeo.com/video/135920131" width="700"></iframe></p>

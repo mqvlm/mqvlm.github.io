@@ -1,12 +1,15 @@
 ---
-layout: blog
 title: variaciones con Renoir, Hockney y Rembrandt
-category: blog
-tags: [tags for the post, is here]  
+date: 2015-07-06 00:00:00 Z
+categories:
+- blog
+tags:
+- tags for the post
+- is here
+layout: blog
 summary: Otras pruebas de visualización de cuadros en tortas.
-image: /images/blog/post10/hockney.png
+image: "/images/blog/post10/hockney.png"
 ---
-
 
 otras pruebas con _[esto](http://mqvlm.github.io/blog/renoir.html)_ que hice el otro día .
 

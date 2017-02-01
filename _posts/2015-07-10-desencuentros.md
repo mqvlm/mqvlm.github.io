@@ -1,12 +1,15 @@
 ---
+title: des[encuentros]
+date: 2015-07-10 00:00:00 Z
+categories:
+- blog
+tags:
+- tags for the post
+- is here
 layout: blog
-title: des[encuentros] 
-category: blog
-tags: [tags for the post, is here]  
 summary: Una instalación interactiva que hice con processing y kinect
-image: /images/blog/post13/desencuentros.jpg
+image: "/images/blog/post13/desencuentros.jpg"
 ---
-
 
 ![Alt text](/images/blog/post13/desencuentros.jpg "des[encuentros]")
 

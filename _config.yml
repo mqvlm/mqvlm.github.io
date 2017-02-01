@@ -1,17 +1,27 @@
-permalink: /:categories/:title.html
-url: "http://mqvlm.github.io/"
-full_name: ""
-first_name: ""
-last_name: ""
-blog_title: "experimentos en processing y otras cosas."
+---
+title: Mqvlm.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: "/:categories/:title.html"
+url: http://mqvlm.github.io/
+full_name: ''
+first_name: ''
+last_name: ''
+blog_title: experimentos en processing y otras cosas.
 author_img_name_path: "/images/users/user.jpg"
-disqus_shortname: "mqvlm"
-copyright_year: ""
-google_analytics_code: ""
-aboutme: ""
-twitter: "mqvlm"
-github: "mqvlm"
-tumblr: "http://memmorabilia.tumblr.com/"
-facebook: ""
-linkined_url: ""
-instagram: "http://www.instagram.com/mqvlm"
+disqus_shortname: mqvlm
+copyright_year: ''
+google_analytics_code: ''
+aboutme: ''
+twitter: mqvlm
+github: mqvlm
+tumblr: http://memmorabilia.tumblr.com/
+facebook: ''
+linkined_url: ''
+instagram: http://www.instagram.com/mqvlm
