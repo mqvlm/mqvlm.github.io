@@ -16,8 +16,10 @@
 /*Basado en: 
 - Super Fast Blur v1.1 by Mario Klingemann <http://incubator.quasimondo.com>
 - BlobDetection library 
-
 */
+
+//Processing 3.3.5
+
 
 import processing.video.*;
 import blobDetection.*;
