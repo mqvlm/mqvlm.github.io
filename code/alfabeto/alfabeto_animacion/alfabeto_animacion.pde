@@ -14,6 +14,8 @@
 
 //http://mqvlm.github.io/blog/alfabeto.html
 
+//Processing 3.3.5
+
 PImage[] imagenes;
 PImage prueba;
 
@@ -32,12 +34,20 @@ void setup ()
   maxCuadro = 51.0;
   nuevoCuadro = 0;
   
-  prueba = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post15_alfabeto/alfabeto_animacion/data/0.png");
+  //Así las cargo cuando estoy usando este sketch en local
+  //prueba = loadImage("0.png");
+  
+  //Así cargo la imagen inicial cuando estoy usando este sketch en web
+  prueba = loadImage("/code/alfabeto/alfabeto_animacion/data/0.png");
 
   imagenes = new PImage[53];
   for (int i = 0; i < imagenes.length; i++)
   {
-    imagenes[i] = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post15_alfabeto/alfabeto_animacion/data/"+ i + ".png"); 
+    //Así cargo las imágenes cuando estoy usando este sketch en local
+    //imagenes[i] = loadImage(i + ".png"); 
+    
+    //Así cargo las imágenes cuando estoy usando este sketch en web
+    imagenes[i] = loadImage("/code/alfabeto/alfabeto_animacion/data/"+ i + ".png"); 
   }
   
 } 

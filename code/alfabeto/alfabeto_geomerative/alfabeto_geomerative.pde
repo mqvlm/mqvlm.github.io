@@ -14,6 +14,8 @@
 
 //http://mqvlm.github.io/blog/alfabeto.html
 
+//Processing 3.3.5
+
 import geomerative.*;
 
 RShape letras;
