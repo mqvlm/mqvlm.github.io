@@ -13,6 +13,8 @@ image: "/images/blog/post10/hockney.png"
 
 otras pruebas con _[esto](http://mqvlm.github.io/blog/renoir.html)_ que hice el otro día .
 
+[*(descargar código)*]({{ site.repourl }}renoir)
+
 <img src='/images/blog/post10/renoir1.png' width="500"/>
 
 <br>
