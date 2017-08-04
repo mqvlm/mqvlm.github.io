@@ -33,7 +33,7 @@ No es tan difícil empezar a trabajar con kinect. En esta entrada, comparto el c
 
 Por mi parte he trabajado la librería [*simple-openNI*](https://code.google.com/p/simple-openni/) para conectar el kinect con Processing, aunque sé que hay otras que han venido saliendo y que tal vez incluso funcionen mejor, pero en este caso voy a explicar como hacerlo con la que conozco. 
 
-Pueden empezar por  descargar la librería [*aquí*]({{ site.repourl }}simpleOpenNI/library) e instalarla como siempre se instalan librerías en Processing: Documentos -> Processing -> libreries. No olviden cerrar y volver a abir Processing cada vez que instalan una librería nueva, si no no se las va a reconocer. 
+Pueden empezar por  descargar la librería [*aquí*]({{ site.repourl }}simpleOpenNI/library) e instalarla como siempre se instalan librerías en Processing: Documentos -> Processing -> libraries. No olviden cerrar y volver a abir Processing cada vez que instalan una librería nueva, si no no se las va a reconocer. 
 
 Si están trabajando desde PC también tendrán que instalar los drivers de kinect, es un programa que tienen que descargar [*aquí*](https://www.microsoft.com/en-us/download/details.aspx?id=44561) y seguir el paso a paso para instalarlo. (SOLO PC, mac no necesita esto)
 
