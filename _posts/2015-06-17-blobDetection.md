@@ -18,7 +18,7 @@ image: "/images/blog/post2/post2_1.png"
 
 <br>
 
-[*(descargar código)*](https://dl.dropboxusercontent.com/u/21566953/mqvlm/post2_theo.zip)
+[*(descargar código)*]({{ site.repourl }}blob_theo)
 <br>
 <br>
 <br>
