@@ -41,7 +41,11 @@ void setup ()
   imagenes = new PImage[15];
   for (int i = 0; i < imagenes.length; i++)
   {
-    imagenes[i] = loadImage("https://dl.dropboxusercontent.com/u/21566953/mqvlm/post12_mar/gif_manual/data/"+i + ".png"); 
+    //Así las llamo desde local
+    //imagenes[i] = loadImage(i + ".png"); 
+    
+   //Así si estoy usando este sketch en web, llamaando las imágenes desde el directorio
+    imagenes[i] = loadImage("/code/gif_manual/data/"+i + ".png"); 
   }
   
 } 
