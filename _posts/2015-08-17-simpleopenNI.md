@@ -28,6 +28,12 @@ _[Ver más grande en Vimeo](https://vimeo.com/135920131)_
 
 ![Alt text](/images/blog/post17/5.png)  
 
+<br>
+
+[*descargar ejemplo comentado*]({{ site.repourl }}simpleOpenNI)   <br>
+[*descargar ejemplo de cículos con las manos*]({{ site.repourl }}kinect_circulosConLasManos) 
+
+<br>
 
 No es tan difícil empezar a trabajar con kinect. En esta entrada, comparto el código básico para empezar (esto es, si uno está familiarizado con [*Processing*](https://processing.org/)).
 
