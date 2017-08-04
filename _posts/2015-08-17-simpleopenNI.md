@@ -33,19 +33,19 @@ No es tan difícil empezar a trabajar con kinect. En esta entrada, comparto el c
 
 Por mi parte he trabajado la librería [*simple-openNI*](https://code.google.com/p/simple-openni/) para conectar el kinect con Processing, aunque sé que hay otras que han venido saliendo y que tal vez incluso funcionen mejor, pero en este caso voy a explicar como hacerlo con la que conozco. 
 
-Pueden empezar por  descargar la librería [*aquí*](https://dl.dropboxusercontent.com/u/21566953/SimpleOpenNI-1.96.zip) e instalarla como siempre se instalan librerías en Processing: Documentos -> Processing -> libreries. No olviden cerrar y volver a abir Processing cada vez que instalan una librería nueva, si no no se las va a reconocer. 
+Pueden empezar por  descargar la librería [*aquí*]({{ site.repourl }}simpleOpenNI/library) e instalarla como siempre se instalan librerías en Processing: Documentos -> Processing -> libreries. No olviden cerrar y volver a abir Processing cada vez que instalan una librería nueva, si no no se las va a reconocer. 
 
 Si están trabajando desde PC también tendrán que instalar los drivers de kinect, es un programa que tienen que descargar [*aquí*](https://www.microsoft.com/en-us/download/details.aspx?id=44561) y seguir el paso a paso para instalarlo. (SOLO PC, mac no necesita esto)
 
 La librería está molestando con las nuevas versiones de Processing, así que recomiendo usarla en Processing 1.5 mientras la actualizan para que funcionen con las nuevas versiones.
 
-Como siempre, lo mejor para entender una librería es meterse a algunos de los ejemplos que trae, y en este caso recomiendo mirar el que se llama "User" que es el básico. Sin embargo,  me tomé el trabajo de comentar el ejemplo línea por línea y se los dejo aquí para que lo descarguen y empiecen a jugar con las variables a ver qué pasa: [*descargar ejemplo comentado*](https://dl.dropboxusercontent.com/u/21566953/mqvlm/post17_simpleOpenNI.zip) 
+Como siempre, lo mejor para entender una librería es meterse a algunos de los ejemplos que trae, y en este caso recomiendo mirar el que se llama "User" que es el básico. Sin embargo,  me tomé el trabajo de comentar el ejemplo línea por línea y se los dejo aquí para que lo descarguen y empiecen a jugar con las variables a ver qué pasa: [*descargar ejemplo comentado*]({{ site.repourl }}simpleOpenNI) 
 
 OJO: no se desesperen muy rápido si no los reconoce el kinect, muevan los brazos o muévase un poco. Si se quedan muy quietos el kinect los pierde o no los reconoce de entrada. 
 
 El video y las imágenes que puse más arriba son ejemplo de cómo moviendo solo algunas funcionalidades básicas que vienen por default en ese ejemplo de "User" se pueden empezar a lograr efectos interesantes, además que es la forma más directa para ir entendiendo los métodos y así lanzarse a empezar a programar interactividad de todo tipo. 
 
-Por eso, también les dejo para descargar [*la parte 2 de este tutorial*](https://dl.dropboxusercontent.com/u/21566953/mqvlm/post17_circulosConLasManos.zip), que es usar el kinect para dibujar con las manos. Este código es el mismo del ejemplo que pongo arriba, solo que ya no para dibujar esqueletos, sino para tomar sólo las coordenadas de las manos y usarlas para dibujar círculos o cualquier otra cosa que se les ocurra. 
+Por eso, también les dejo para descargar [*la parte 2 de este tutorial*]({{ site.repourl }}kinect_circulosConLasManos) , que es usar el kinect para dibujar con las manos. Este código es el mismo del ejemplo que pongo arriba, solo que ya no para dibujar esqueletos, sino para tomar sólo las coordenadas de las manos y usarlas para dibujar círculos o cualquier otra cosa que se les ocurra. 
 
 En ese código de los círculos que les pongo está la base para programar cualquier tipo de interactividad con el cuerpo. La clave está en la parte en la que se toman las coordenadas de una de las articulaciones. Está súper señalada en el código de pintar círculos con las manos, y si no, la vuelvo a poner acá:
 
