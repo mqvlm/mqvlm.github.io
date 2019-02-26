@@ -1,10 +1,9 @@
- @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
 
 img, embed, object{
 	max-width: 100%;
 }
-
 
 .postcontent{
 	//padding : 10px;

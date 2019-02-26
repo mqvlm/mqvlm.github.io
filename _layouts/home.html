@@ -1,0 +1,36 @@
+<html>
+
+	{% include head.html %}
+	
+	<body>
+		<div id='layout'>
+			{% include header.html %}
+			<div style='clear: both'></div>
+		</div>
+		<div id='content'>
+			<div id='posts'>
+				<ul>
+					{% for post in site.categories.blog %}
+						<li class='post'>
+							{% if post.image %}
+								<a href='{{post.url}}'><img class='post-image' src="{{post.image}}" /></a>
+							{% endif %}
+							<div class="postcontent">
+					<a href='{{post.url}}'><h1 class='post-title'>{{post.title}}</h1></a> 
+								<!--<div class='post-date'>{{ post.date | date: "%B %d, %Y"}}</div> -->
+								
+								<div class='post-content'>{{post.summary}}</div>
+							</div>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			{{site.full_name}} - {{site.copyright_year}}
+		</div>
+	</div>
+	{% include googleana.html %}
+</body>
+</html>
