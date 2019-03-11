@@ -36,6 +36,7 @@ body, div, a, input, select, button, textarea {
 	font-size: 14px;
 	color: #000000;
 	line-height: 1.4;
+	background-color: #e6e6e4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,16 +86,14 @@ h1.soon {
 }
 
 h1.landing {
+	float: left;
 	margin: 0px;
     font-size: 85px;
-    line-height: 100px;
+    font-size: 69px;
+    line-height: 98px;
     word-break: break-all;
 }
 
-div.tab {
-	float: left;
-	background-color: aqua;
-}
 
 
 /*---*/
