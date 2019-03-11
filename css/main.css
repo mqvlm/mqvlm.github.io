@@ -2,12 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
 
 @font-face {
-    font-family: 'novecento_widedemibold';
-    src: url('/fonts/synthview_-_novecentowide-demibold_1-webfont.woff2') format('woff2'),
-         url('/fonts/synthview_-_novecentowide-demibold_1-webfont.woff') format('woff');
+    font-family: 'Novecento_WideDemibold';
+    src: url('../fonts/synthview_-_novecentowide-demibold_1-webfont.woff2') format('woff2'),
+         url('../fonts/synthview_-_novecentowide-demibold_1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 img, embed, object{
@@ -15,7 +14,7 @@ img, embed, object{
 }
 
 .postcontent{
-	//padding : 10px;
+	padding : 10px;
 }
 
 body {
@@ -40,8 +39,7 @@ body, div, a, input, select, button, textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Arial', sans-serif;
-	font-weight: 400;
+	font-family: 'Novecento_WideDemibold', 'Helvetica', 'Arial', sans-serif;
 }
 
 code {
@@ -76,7 +74,7 @@ a img {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 210px;
 	font-weight: normal;
 }
 
@@ -398,9 +396,9 @@ only screen and (max-width: 600px) {
 	}*/
 }
 
-.message {
+.soon {
 	text-align: left;
-    font-size: 20em;
+   /* font-size: 20em;*/
     margin-top: 40px;
     line-height: 200px;
 }
