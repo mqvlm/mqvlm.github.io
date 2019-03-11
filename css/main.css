@@ -85,10 +85,19 @@ h1.soon {
 }
 
 h1.landing {
-    font-size: 80px;
-    margin-top: 0px;
+	margin: 0px;
+    font-size: 85px;
     line-height: 100px;
+    word-break: break-all;
 }
+
+div.tab {
+	float: left;
+	background-color: aqua;
+}
+
+
+/*---*/
 
 canvas {
   outline: none;
