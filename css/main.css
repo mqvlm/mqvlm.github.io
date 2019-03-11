@@ -1,6 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Doppio+One);
 
+@font-face {
+    font-family: 'novecento_widedemibold';
+    src: url('/fonts/synthview_-_novecentowide-demibold_1-webfont.woff2') format('woff2'),
+         url('/fonts/synthview_-_novecentowide-demibold_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 img, embed, object{
 	max-width: 100%;
 }
