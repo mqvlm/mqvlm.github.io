@@ -6,9 +6,10 @@ categories:
 tags:
 - tags for the post
 - is here
-layout: blog
+layout: project
 summary: Una instalación interactiva que hice con processing y kinect
 image: "/images/blog/post13/desencuentros.jpg"
+permalink: /desencuentros
 ---
 
 ![Alt text](/images/blog/post13/desencuentros.jpg "des[encuentros]")
