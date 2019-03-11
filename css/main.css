@@ -34,12 +34,13 @@ background-repeat: repeat;*/
 body, div, a, input, select, button, textarea {
 	font-family: 'Arial', sans-serif;
 	font-size: 14px;
-	color: #333333;
+	color: #000000;
 	line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Novecento_WideDemibold', 'Helvetica', 'Arial', sans-serif;
+	text-align: left;
 }
 
 code {
@@ -76,6 +77,17 @@ a img {
 h1 {
 	font-size: 210px;
 	font-weight: normal;
+}
+
+h1.soon {
+    margin-top: 40px;
+    line-height: 200px;
+}
+
+h1.landing {
+    font-size: 80px;
+    margin-top: 0px;
+    line-height: 100px;
 }
 
 canvas {
@@ -120,7 +132,7 @@ canvas {
 }
 
 
-#links {
+#links {																			
 	float: right;
 	margin: 20px 0 0 0;
 	color: #eee;
@@ -396,10 +408,4 @@ only screen and (max-width: 600px) {
 	}*/
 }
 
-.soon {
-	text-align: left;
-   /* font-size: 20em;*/
-    margin-top: 40px;
-    line-height: 200px;
-}
 
