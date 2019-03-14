@@ -1,6 +1,7 @@
 ---
 title: des[encuentros]
 date: 2015-07-10 00:00:00 Z
+permalink: "/desencuentros"
 categories:
 - blog
 tags:
@@ -9,7 +10,6 @@ tags:
 layout: project
 summary: Una instalación interactiva que hice con processing y kinect
 image: "/images/blog/post13/desencuentros.jpg"
-permalink: /desencuentros
 ---
 
 ![Alt text](/images/blog/post13/desencuentros.jpg "des[encuentros]")
