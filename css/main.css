@@ -21,22 +21,19 @@ body {
 	margin: 0px;
 	text-align: center;
 	padding: 0px 20px 0px 20px;
-	/*background-image: url('/images/fondo.png'); */
-	/*border-top: 4px solid #333;*/
-/*
-background-color: #F7F7F7;
-background-image: url('http://wpexplorer-demos.com/fabulous/wp-content/themes/wpex-fabulous/images/noise.png');
-background-image: url('http://cdn.elegantthemes.com/preview/Notebook/wp-content/themes/Notebook/images/body-bg.png');
-background-repeat: repeat;*/
+	background-color: #e6e6e4;
+}
 
+.content {
+	margin: 0;
+	padding: 30px 0;
 }
 
 body, div, a, input, select, button, textarea {
 	font-family: 'Arial', sans-serif;
 	font-size: 14px;
 	color: #000000;
-	line-height: 1.4;
-	background-color: #e6e6e4;
+	line-height: 1.4;	
 }
 
 h1, h2, h3, h4, h5, h6 {
