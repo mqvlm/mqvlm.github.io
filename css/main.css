@@ -45,7 +45,20 @@ section {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Novecento_WideDemibold', 'Helvetica', 'Arial', sans-serif;
 	text-align: left;
+	float: left;
 }
+
+h1 {
+	font-size: 69px;
+}
+
+
+h1.landing {
+	margin: 0px;
+    line-height: 98px;
+    word-break: break-all;
+}
+
 
 p {
 	text-align: left;
@@ -85,24 +98,6 @@ a img {
 	border: 0px;
 }
 
-h1 {
-	font-size: 210px;
-	font-weight: normal;
-}
-
-h1.soon {
-    margin-top: 40px;
-    line-height: 200px;
-}
-
-h1.landing {
-	float: left;
-	margin: 0px;
-    font-size: 85px;
-    font-size: 69px;
-    line-height: 98px;
-    word-break: break-all;
-}
 
 
 
