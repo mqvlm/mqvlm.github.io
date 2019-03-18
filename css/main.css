@@ -38,7 +38,9 @@ body, div, a, input, select, button, textarea {
 section {
 	padding: 0px 15px;
 }
-
+.row {
+	padding-bottom: 25px;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Novecento_WideDemibold', 'Helvetica', 'Arial', sans-serif;
 	text-align: left;

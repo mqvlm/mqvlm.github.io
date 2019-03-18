@@ -9,7 +9,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					<img src="/img/about.jpg" alt="Mariana Quintero Vecchiato mqvlm" height="200"/ style="float: left; margin: 50px 0px;"> 
+					<img src="/img/about.jpg" alt="Mariana Quintero Vecchiato mqvlm" height="200"/ style="float: left; margin: 25px 0px;"> 
 				</div>
 			</div>
 			<div class="row">
@@ -19,21 +19,38 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					<img src="/img/post1.png" alt="Mariana Quintero Vecchiato mqvlm" height="200"/ style="float: left; margin: 50px 0px;"> 
+					<img src="/img/post1.png" alt="Mariana Quintero Vecchiato mqvlm" height="200"/ style="float: left; margin: 25px 0px;"> 
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" style="margin-bottom: 25px;">
 				<div class="col-sm-12">
 					<h3>Current </h3>
 				</div>
 				<div class="col-sm-12">
 					<a href="https://iaac.net/educational-programmes/masters-programmes/master-in-design-for-emergent-futures-mdef/" target="_blank"><p> Faculty member at MDEF - Master in Design for Emergent Futures / IAAC | Fab Lab Barcelona </p></a>
 				</div>
+				<div class="col-sm-12">
+					<a href="https://fab.city"><p> Fab City Global Initiative Collaborator - Fab City comprises a Network of 28 cities and a global network of changemakers working to make locally productive, globally connected cities and citizens. </p></a>
+				</div>
 			</div>
 			
 			<div class="row">
 				<div class="col-sm-12">
 					<h3>Past</h3>
+				</div>
+			</div>
+			{% for collaboration in site.data.collaborations %}
+			<div class="row">
+				<div class="col-sm-12">
+					<a href="{{ collaboration.url }}" target="_blank"><p> {{ collaboration.name }} </p></a>
+				</div>
+			</div>
+			{% endfor %}
+
+
+			<div class="row">
+				<div class="col-sm-12">
+					"><p> Enquiries: mariana.nodo@gmail.com </p>
 				</div>
 			</div>
 			
