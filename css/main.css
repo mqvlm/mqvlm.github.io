@@ -5,7 +5,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'hk_groteskbold';
     src: url('../fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
@@ -30,14 +29,12 @@ body {
 	padding: 20px 20px 0px 20px;
 	background-color: #e6e6e4;
 }
-
 body, div, a, input, select, button, textarea {
 	font-family: 'Arial', sans-serif;
 	font-size: 14px;
 	color: #000000;
 	line-height: 1.4;	
 }
-
 section {
 	padding: 0px 15px;
 }
@@ -47,19 +44,15 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: left;
 	float: left;
 }
-
 h1 {
 	font-size: 69px;
 }
 
-
-h1.landing {
+#intro h1 {
 	margin: 0px;
     line-height: 98px;
     word-break: break-all;
 }
-
-
 p {
 	text-align: left;
 	line-height: 1.6;
@@ -67,13 +60,11 @@ p {
 	font-size: 20px;
 	font-family: 'hk_groteskbold', 'Helvetica', 'Arial', sans-serif;
 	font-size: 25px;
-
 }
 
 code {
 	font-weight: bold;
 }
-
 pre code {
 	font-weight: normal;
 }
