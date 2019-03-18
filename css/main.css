@@ -54,6 +54,13 @@ h1 {
     word-break: break-all;
    	margin: 0px;
 }
+#intro a {
+	text-decoration: none;
+}
+#intro a:hover {
+	text-decoration: underline;
+	color: #000;
+}
 
 p {
 	text-align: left;
