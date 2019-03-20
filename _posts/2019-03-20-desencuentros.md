@@ -1,6 +1,6 @@
 ---
 title: des[encuentros]
-date: 2019-03-20 00:00:00 
+date: 2019-03-20 00:00:00 Z
 permalink: "/desencuentros"
 categories:
 - blog
