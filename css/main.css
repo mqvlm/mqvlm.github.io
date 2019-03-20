@@ -96,6 +96,35 @@ a img {
 	border: 0px;
 }
 
+/*-Landing Intro*/
+
+#intro1 {
+	width: 95px;
+	margin-top: -25px;
+}
+#intro2 {
+	width: 140px; 
+	margin-top: -25px;
+}
+#intro3 {
+	width: 130px; 
+	margin-top: -20px;
+}
+
+#intro4 {
+	width: 140px; 
+	margin-top: -20px;
+}
+
+#intro5 {
+	 width:140; 
+	 margin-top: -20px;
+}
+
+#intro6 {
+	width:140;
+	margin-bottom: -20px;
+}
 
 
 
