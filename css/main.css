@@ -47,12 +47,22 @@ h1, h2, h3, h4, h5, h6 {
 	float: left;
 }
 h1 {
-	font-size: 69px;
+	font-size: 49px;
 }
 #intro h1 {
-    line-height: 98px;
-    word-break: break-all;
-   	margin: 0px;
+	    line-height: 62px;
+	    word-break: normal;
+	   	margin: 0px;
+	   }
+@media (min-width: 768px){
+	h1 {
+		font-size: 69px;
+	}
+	#intro h1 {
+	    line-height: 98px;
+	    word-break: break-all;
+	   	margin: 0px;
+	}
 }
 #intro a {
 	text-decoration: none;
@@ -73,6 +83,7 @@ p {
 a {
 	color: #000000;
 	text-decoration: underline;
+	cursor: pointer;
 }
 a:hover {
 	text-decoration: none;
@@ -99,33 +110,62 @@ a img {
 /*-Landing Intro*/
 
 #intro1 {
-	width: 95px;
-	margin-top: -25px;
+	width: 0px;
+	margin-top: 0px;
 }
 #intro2 {
-	width: 140px; 
-	margin-top: -25px;
+	width: 0px; 
+	margin-top: 0px;
 }
 #intro3 {
-	width: 130px; 
-	margin-top: -20px;
+	width: auto; 
+	margin-top: 15px;
 }
 
 #intro4 {
-	width: 140px; 
-	margin-top: -20px;
+	width: auto; 
+	margin-top: 0px;
 }
 
 #intro5 {
-	 width:140; 
-	 margin-top: -20px;
+	 width:auto; 
+	 margin-top: 0px;
 }
 
 #intro6 {
-	width:140;
-	margin-bottom: -20px;
+	width:auto;
+	margin-bottom: 0px;
 }
 
+@media (min-width: 768px){
+	#intro1 {
+		width: 95px;
+		margin-top: -25px;
+	}
+	#intro2 {
+		width: 140px; 
+		margin-top: -25px;
+	}
+	#intro3 {
+		width: 130px; 
+		margin-top: -20px;
+	}
+
+	#intro4 {
+		width: 140px; 
+		margin-top: -20px;
+	}
+
+	#intro5 {
+		 width:140; 
+		 margin-top: -20px;
+	}
+
+	#intro6 {
+		width:140;
+		margin-bottom: -20px;
+	}
+}
 
 
 /*---*/
