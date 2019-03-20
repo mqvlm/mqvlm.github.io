@@ -1,6 +1,7 @@
 ---
 title: des[encuentros]
-date: 2015-07-10 00:00:00 Z
+date: 2019-03-20 00:00:00 
+permalink: "/desencuentros"
 categories:
 - blog
 tags:
@@ -11,7 +12,7 @@ summary: Una instalación interactiva que hice con processing y kinect
 image: "/images/blog/post13/desencuentros.jpg"
 ---
 
-![Alt text](/images/blog/post13/desencuentros.jpg "des[encuentros]")
+![Mariana Quintero Vecchiato mqvlm](/img/blog/post13/desencuentros.jpg "des[encuentros]")
 
 <p><iframe frameborder="0" height="394" src="//player.vimeo.com/video/100271977" width="700"></iframe></p>
 

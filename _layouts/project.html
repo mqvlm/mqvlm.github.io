@@ -1,12 +1,46 @@
 <html>
-	{% include head.html %}
+	<head>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>{{page.title}} - {{ site.blog_title }}</title>
+		<script type="text/javascript" src='/js/highlight.pack.js'></script>
+		<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+		<script type="text/javascript" src='/js/processing.min.js'></script>
+	</head>
 	<body>
+		<div id='layout'>
+			{% include header_post.html %}
+			<div style='clear: both'></div>
+		</div>
+		<div id='content'>
+			<div id='side-bar-post'>
+				<div id='user'>
+				</div>
+			</div> 
 
-		<h1 class="landing" style="margin-top: 0px;">[des]encuentros
-		</h1>
-		<img src="/img/desencuentros.jpg"/>
-	
+			<div id='page'>
+				<h1 id='page-title'>{{page.title}}</h1>
+
+				<div id='texto'>
+				{{content}}
+				</div>
+
+				<div id='compartir'>
+				{% include share-page.html %}
+				</div>
+
+			</div>
+			
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			{{site.full_name}} - {{site.copyright_year}}
+		</div>
+	</div>
 	{% include googleana.html %}
-	{% include js.html %}
-	</body>
+</body>
 </html>
