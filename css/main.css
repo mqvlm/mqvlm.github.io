@@ -48,22 +48,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
 	font-size: 49px;
+	line-height: 62px;
 }
+
+#intro .row {
+	margin: 0;
+}
+
 #intro h1 {
-	    line-height: 62px;
 	    word-break: normal;
 	   	margin: 0px;
 	   }
 @media (min-width: 768px){
 	h1 {
 		font-size: 69px;
+		line-height: 110px;
 	}
 	#intro h1 {
-	    line-height: 98px;
 	    word-break: break-all;
 	   	margin: 0px;
 	}
 }
+#intro a {
+	text-decoration: none;
+}
+#intro a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+
+#menu h1 {
+	    word-break: normal;
+	   }
+
 #intro a {
 	text-decoration: none;
 }
@@ -141,11 +159,11 @@ a img {
 @media (min-width: 768px){
 	#intro1 {
 		width: 95px;
-		margin-top: -25px;
+		margin-top: -55px;
 	}
 	#intro2 {
-		width: 140px; 
-		margin-top: -25px;
+		width: 130px; 
+		margin-top: -15px;
 	}
 	#intro3 {
 		width: 130px; 
@@ -154,7 +172,7 @@ a img {
 
 	#intro4 {
 		width: 140px; 
-		margin-top: -20px;
+		margin-top: -25px;
 	}
 
 	#intro5 {
