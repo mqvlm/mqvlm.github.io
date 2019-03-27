@@ -51,10 +51,31 @@ h1 {
 	line-height: 62px;
 }
 
+p {
+	text-align: left;
+	line-height: 1.6;
+	font-family: 'hk_groteskbold', 'Helvetica', 'Arial', sans-serif;
+	font-size: 25px;
+}
+p.caption {
+	line-height: 1.6;
+	font-size: 14px;
+}
+a {
+	color: #000000;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+	color: #a3a1a1;
+}
+
+
+/*text specifics*/
 #intro .row {
 	margin: 0;
 }
-
 #intro h1 {
 	    word-break: normal;
 	   	margin: 0px;
@@ -76,12 +97,6 @@ h1 {
 	text-decoration: underline;
 	color: #000;
 }
-
-
-#menu h1 {
-	    word-break: normal;
-	   }
-
 #intro a {
 	text-decoration: none;
 }
@@ -90,23 +105,17 @@ h1 {
 	color: #000;
 }
 
-p {
-	text-align: left;
-	line-height: 1.6;
-	font-family: 'Helvetica', 'Arial', sans-serif;
-	font-size: 20px;
-	font-family: 'hk_groteskbold', 'Helvetica', 'Arial', sans-serif;
-	font-size: 25px;
-}
-a {
-	color: #000000;
-	text-decoration: underline;
-	cursor: pointer;
-}
-a:hover {
-	text-decoration: none;
-	color: #a3a1a1;
-}
+
+#menu h1 {
+	    word-break: normal;
+	   }
+
+
+
+
+
+
+
 
 code {
 	font-weight: bold;
