@@ -135,6 +135,28 @@ a img {
 	border: 0px;
 }
 
+img.standard {
+	height: auto;
+	width: 50%;
+}
+
+iframe.embed {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 768px){ 
+	img .standard {
+		height: 300px;
+		width: 50%;
+	}
+	iframe.embed {
+		width: 640px;
+		height: 360px;
+	}
+}
+
+
 /*-Landing Intro*/
 
 #intro1 {
@@ -156,7 +178,7 @@ a img {
 }
 
 #intro5 {
-	 width:auto; 
+	 width: 50%; 
 	 margin-top: 0px;
 }
 
