@@ -111,12 +111,6 @@ a:hover {
 	   }
 
 
-
-
-
-
-
-
 code {
 	font-weight: bold;
 }
@@ -146,9 +140,9 @@ iframe.embed {
 }
 
 @media (min-width: 768px){ 
-	img .standard {
+	img.standard {
 		height: 300px;
-		width: 50%;
+		width: auto;
 	}
 	iframe.embed {
 		width: 640px;
