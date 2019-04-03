@@ -44,7 +44,7 @@ body {
 
 @media (min-width: 768px){
 	section {
-		padding: 0px 15px;
+		padding: 0px 0px;
 		margin-bottom: 50px;
 	}
 }
