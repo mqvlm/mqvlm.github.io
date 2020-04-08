@@ -1,5 +1,5 @@
 ---
-title: 'Mariana Quintero Vecchiato'
+title: Mariana Quintero Vecchiato
 timezone: UTC
 collections:
   posts:
@@ -10,17 +10,17 @@ collections:
     output: true
 permalink: "/:categories/:title.html"
 url: http://mqvlm.github.io/
-full_name: 'Mariana Quintero Vecchiato'
-first_name: 'Mariana'
-last_name: 'Quintero Vecchiato'
-blog_title: 'Mariana Quintero Vecchiato is an educator and digital
-  literacy advocate based in Barcelona.'
+full_name: Mariana Quintero Vecchiato
+first_name: Mariana
+last_name: Quintero Vecchiato
+blog_title: Mariana Quintero Vecchiato is an educator and digital literacy advocate
+  based in Barcelona.
 author_img_name_path: "/img/users/user.jpg"
 disqus_shortname: mqvlm
 copyright_year: '2020'
 google_analytics_code: ''
-aboutme: 'Mariana Quintero Vecchiato is an educator and digital
-  literacy advocate based in Barcelona.'
+aboutme: Mariana Quintero Vecchiato is an educator and digital literacy advocate based
+  in Barcelona.
 twitter: 
 github: mqvlm
 tumblr: http://memmorabilia.tumblr.com/
