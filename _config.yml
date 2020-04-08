@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 permalink: "/:categories/:title.html"
-url: 'http://mqvlm.github.io/'
+url: http://mqvlm.github.io/
 full_name: Mariana Quintero Vecchiato
 first_name: Mariana
 last_name: Quintero Vecchiato
