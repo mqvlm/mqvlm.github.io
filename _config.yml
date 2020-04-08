@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 permalink: "/:categories/:title.html"
-url: http://mqvlm.github.io/
+url: 'http://nubicola.github.io/'
 full_name: Mariana Quintero Vecchiato
 first_name: Mariana
 last_name: Quintero Vecchiato
@@ -27,4 +27,4 @@ tumblr: http://memmorabilia.tumblr.com/
 facebook: ''
 linkined_url: ''
 instagram: http://www.instagram.com/nubicola
-repourl: https://github.com/mqvlm/mqvlm.github.io/tree/master/code/
+repourl: https://github.com/mqvlm/nubicola.github.io/tree/master/code/
